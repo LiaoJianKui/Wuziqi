@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gdcp.cn.wuziqi.MainActivity"
+    android:background="@drawable/bg"
+    >
+
+    <gdcp.cn.wuziqi.Wuziqi
+        android:id="@+id/wuziqi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>
